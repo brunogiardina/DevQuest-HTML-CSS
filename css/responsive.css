@@ -1,0 +1,62 @@
+@media (max-width: 376px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        background-position: top;
+    }
+
+    .hero {
+        margin: 3rem;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .logo img {
+        width: 14rem;
+    }
+
+    .hero .container .description {
+        width: 100%;
+        gap: 0;
+    }
+
+    .hero .container .description h1 {
+        margin-top: 5rem;
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .hero .container .description p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .hero .container .description a {
+        font-size: 1.4rem;
+        padding: 1rem 8rem;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        transition: .3s;
+        margin: 3rem auto;
+    }
+
+    .hero .footer .social-media ul {
+        margin-top: 4rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .hero .footer .social-media li a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }    
+
+
+}
